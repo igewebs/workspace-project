@@ -1,19 +1,3 @@
-# Development Containers for Visual Studio Code and GitHub Codespaces
-
-Visual Studio Code has a nifty feature called [development containers][0] 
-("devcontainers"), it lets you use Docker to setup your development environment.
-A lot of us have variations on this in place already but the nifty idea 
-with Code is that you do your development _inside the container._ That is, you
-install all of the tools that you need (i.e. NodeJS, Ruby, etc.) into one 
-container and then use that for your development environment.
-
-Then there's [GitHub Codespaces][1], this leverages development containers to
-deploy Docker containers _in the cloud_ and then you do your work inside of
-those cloud-deployed containers. Even niftier, you can choose to use the web-
-based Visual Studio Code editor right from the GitHub website or you can click
-a button and use the copy of Code that you have installed on your local 
-machine.
-
 ## What's in this Project?
 
 This project provides a devcontainer running PHP that you can use to do your
